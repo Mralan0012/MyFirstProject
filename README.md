@@ -1,3 +1,3 @@
 # MyFirstProject
 My first CI/CD pipeline project.
-This project hosts a simple web app on a CI/CD pipeline.
+This project hosts a simple web app through a CI/CD pipeline.
