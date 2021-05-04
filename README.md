@@ -163,4 +163,4 @@ In Jenkins, in your pipeline, Click Build Now
 
 Access web app:
 
-  In a web browser, insert <DNS for the load balancer:8090>
+  In a web browser, insert DNS for the load balancer:8090
