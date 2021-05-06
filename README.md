@@ -83,7 +83,23 @@ SSH into the EC2 Instance:
     sudo cp /home/ec2-user/.kube/config /home (Move to home directory)
     sudo chmod 755 /home/config
     
-  Clone your Git Repository to your EC2:
+  Create Nodes in your cluster through the AWS Console:
+  
+    - Navigate to the AWS EKS service page by clicking services > Elastic Kubernetes Service under 'Containers'
+    - Here you will see the cluster you created. Select your cluster
+    - Select Compute
+    - Select 'Add Node Group'
+    - Provide a name for your Node Group, and select the role you created
+    - select Next
+    - Configure the Node group conpute configuration based on your needs. The default configuration should be sufficient.
+    - Configure the Group Scaling for your needs
+    - Select Next
+    - Specify the subnets where your nodes will run
+    - Specify a Key Pair for SSH access to the nodes
+    - Select Next
+    - Select Create
+    
+  Clone your Git Repository to your EC2 in CLI:
   
     sudo git clone <Git Repository URL>
     cd <Folder of Git Clone>
