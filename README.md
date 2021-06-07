@@ -111,7 +111,8 @@ SSH into the EC2 Instance:
     
 Login to Jenkins:
   
-  Go to <EC2 DNS URL:8080> in web browser
+  Go to "EC2 DNS URL:8080" in web browser
+  
   In EC2 SSH Shell -->
     sudo cat /var/lib/jenkins/secrets/initialAdminPassword
   Enter temporary password into Jenkins portal --> create user credentials
