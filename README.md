@@ -45,7 +45,7 @@ SSH into the EC2 Instance:
   Git:
   
     sudo yum update -y
-    sudo yum install install git
+    sudo yum install git
     
   Jenkins:
   
